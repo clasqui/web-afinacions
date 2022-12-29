@@ -1,6 +1,6 @@
 ---
-title: "Afinacions"
-draft: true
+title: "Afinació de pianos"
+draft: false
 weight: 0
 ---
 

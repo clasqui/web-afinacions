@@ -16,22 +16,22 @@ DefaultContentLanguage           = "ca"                    # Default language fo
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "2 de Jan de 2006"
     email                        = "xavi@afinacions.cat"   # E-mail address for contact section
-    # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
+    customCSS                    = ["custom.scss"]             # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
 
     # Configure the home page
     [params.home]
         introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = false                    # Show latest blog post summary
+        showLatest               = true                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
-        allPostsArchiveFormat    = true                    # show all posts in an archive format
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+        allPostsArchiveFormat    = false                    # show all posts in an archive format
+        numberOfProjectsToShow   = 0                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = false                    # Show your current local time in contact section
         timeZone                 = "Europe/Madrid"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "ca-ES"                 # Language specific format to use
     [params.projects]
-        useTwoColumns            = false                   # Use a layout with two columns instead of three
+        useTwoColumns            = true                   # Use a layout with two columns instead of three
 
     # Share buttons on blog post pages
     [params.share]
@@ -63,7 +63,7 @@ DefaultContentLanguage           = "ca"                    # Default language fo
         icon_pack = "fab"
     [[params.social]]
         url   = "https://instagram.com/clascapianoconcert"
-        icon  = "instagram-ig" # icon name without the 'fa-'
+        icon  = "instagram" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
         url = "mailto:xavi@afinacions.cat"  # For a direct email link, use "mailto:test@example.org".
