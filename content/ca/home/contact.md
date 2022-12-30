@@ -6,8 +6,15 @@ weight: 3
 
 Envia'm un missatge directament i et respondré per correu electrònic.
 
-<form name="contact" class="column is-three-fifths is-offset-one-fifth" action="/gracies/" method="POST" data-netlify="true">
+<form name="contact" class="column is-three-fifths is-offset-one-fifth" action="/gracies/" method="POST" data-netlify="true" netlify-honeypot="subject">
     <input type="hidden" name="form-name" value="contact" />
+    <!-- Honeypot -->
+    <div class="hidden">
+        <label class="" for="subject"></label>
+        <div class="">
+            <input id="contact-form-subject" name="subject" type="text" placeholder="Subject" class="" required="" autocomplete="off">
+        </div>
+    </div>
     <!-- Text input-->
     <div class="field">
         <label class="label" for="Nom"></label>
