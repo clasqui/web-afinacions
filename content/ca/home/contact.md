@@ -4,6 +4,8 @@ draft: false
 weight: 3
 ---
 
+Envia'm un missatge directament i et respondré per correu electrònic.
+
 <form name="contact" class="column is-three-fifths is-offset-one-fifth" action="/gracies/" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="contact" />
     <!-- Text input-->
