@@ -46,3 +46,7 @@ Envia'm un missatge directament i et respondré per correu electrònic.
         <button type="submit" class="button" value="Submit" id="Form-submit">Envia</button>
     </div>
 </form>
+
+**Telèfon:**
+
+<span class="telf-big">609120101</span>
