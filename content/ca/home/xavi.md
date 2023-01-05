@@ -2,6 +2,7 @@
 title: "Xavi"
 draft: false
 image: presentacio.jpg
+botimage: arreglar.jpg
 weight: 1
 ---
 
